@@ -1,5 +1,5 @@
 // =========================================
-// UP RISING
+// UPRIZE
 // Main JavaScript
 // =========================================
 
@@ -48,7 +48,7 @@ if (yearElement) {
     const currentYear = new Date().getFullYear();
 
     yearElement.textContent =
-        `© ${currentYear} UP Rising. All rights reserved.`;
+        `© ${currentYear} UPRIZE. All rights reserved.`;
 
 }
 
