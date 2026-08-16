@@ -1531,8 +1531,10 @@ img {
 /* PHOTO PLACEHOLDER */
 
 .leader-photo {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
+
+    overflow: hidden;
 
     margin: 0 auto 22px;
 
@@ -1557,14 +1559,15 @@ img {
 }
 
 .leader-photo::after {
-    content: "PHOTO";
+    display: none;
+}
 
-    color: #666;
-
-    font-size: 0.65rem;
-    font-weight: 800;
-
-    letter-spacing: 0.16em;
+.leader-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    display: block;
 }
 
 .leader-info {
@@ -1627,3 +1630,11 @@ img {
 
 }
 
+
+
+.leader-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+}
