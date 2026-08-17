@@ -828,7 +828,7 @@ img {
     object-fit: cover;
     border-radius: inherit;
     display: block;
-    mix-blend-mode: screen;
+    mix-blend-mode: normal;
 }
 
 .app-info h3 {
